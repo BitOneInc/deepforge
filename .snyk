@@ -1,0 +1,33 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - webgme > webgme-user-management-page > body-parser > debug:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > finalhandler > debug:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > send > debug:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > serve-static > send > debug:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-engine > debug:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > debug:
+        patched: '2018-05-24T00:45:33.370Z'
+  'npm:ms:20170412':
+    - webgme > webgme-user-management-page > express > serve-static > send > ms:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > debug > ms:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > finalhandler > debug > ms:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > send > debug > ms:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > send > ms:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > express > serve-static > send > debug > ms:
+        patched: '2018-05-24T00:45:33.370Z'
+    - webgme > webgme-user-management-page > body-parser > debug > ms:
+        patched: '2018-05-24T00:45:33.370Z'
