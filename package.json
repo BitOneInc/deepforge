@@ -38,7 +38,7 @@
     "webgme-breadcrumbheader": "^2.1.1",
     "webgme-chflayout": "^2.0.0",
     "webgme-easydag": "dfst/webgme-easydag",
-    "webgme-executor-worker": "^1.0.1",
+    "webgme-executor-worker": "^3.0.2",
     "webgme-fab": "github:dfst/webgme-fab",
     "webgme-simple-nodes": "^2.1.0"
   },
