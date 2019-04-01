@@ -29,7 +29,7 @@
     "lodash.template": "^4.4.0",
     "mongodb": "^2.2.10",
     "nodemon": "^1.9.2",
-    "npm": "^4.0.5",
+    "npm": "^6.6.0",
     "q": "1.4.1",
     "rimraf": "^2.4.0",
     "tcp-port-used": "^0.1.2",
@@ -38,7 +38,7 @@
     "webgme-breadcrumbheader": "^2.1.1",
     "webgme-chflayout": "^2.0.0",
     "webgme-easydag": "dfst/webgme-easydag",
-    "webgme-executor-worker": "^1.0.1",
+    "webgme-executor-worker": "^3.0.2",
     "webgme-fab": "github:dfst/webgme-fab",
     "webgme-simple-nodes": "^2.1.0"
   },
