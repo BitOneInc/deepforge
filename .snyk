@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - webgme > webgme-engine > archiver > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > archiver > async > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > archiver > zip-stream > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > jsdoc > catharsis > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > jsdoc > requizzle > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > aws-sdk > xml2js > xmlbuilder > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
+    - webgme > webgme-engine > raml2html > minimize > async > lodash:
+        patched: '2020-05-01T05:53:31.867Z'
