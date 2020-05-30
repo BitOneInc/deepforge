@@ -15,7 +15,9 @@
     "worker": "node ./bin/start-worker.js",
     "test": "mkdir ./test-tmp; mocha --recursive test",
     "watch-test": "nodemon --exec 'mocha --recursive test'",
-    "build-nn": "node ./utils/nn-parser.js"
+    "build-nn": "node ./utils/nn-parser.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "version": "1.4.2",
   "dependencies": {
@@ -40,12 +42,14 @@
     "webgme-easydag": "dfst/webgme-easydag",
     "webgme-executor-worker": "^1.0.1",
     "webgme-fab": "github:dfst/webgme-fab",
-    "webgme-simple-nodes": "^2.1.0"
+    "webgme-simple-nodes": "^2.1.0",
+    "snyk": "^1.332.1"
   },
   "devDependencies": {
     "chai": "^3.0.0",
     "jszip": "^2.5.0",
     "mocha": "^2.2.5",
     "mockery": "^1.7.0"
-  }
+  },
+  "snyk": true
 }
